@@ -8,7 +8,10 @@ def webhook():
     url = "https://webexapis.com/v1/messages"
     data = json.dumps({
         "roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vYzg2ZjljMDAtNTY5Yi0xMWVjLThjNmUtYjE2MmM5MjUxYmVl",
-        "text": "Compañeros Bienvenidos a la reunión, que pasen un buen fin de semana!!"
+        #"roomId": "Y2lzY29zcGFyazovL3VzL1JPT00vZTQ5ZDEwNTAtZWRjYy0xMWU4LThkOGItNDE0ZTM5NDdkY2Fi",
+        #"toPersonEmail": "judrodriguez@bancobcr.com",
+        #"toPersonEmail": "lrdelgado@bancobcr.com",
+        "text": "Compañeros Bienvenidos a la reunión!!"
     })
     headers = {
         "Authorization": "Bearer MmRkOGU1MjAtODlhZi00MjQ4LWEyZmItYTRjNzk0ZDExNTcwMWYyNTk4YjMtMTYz_PF84_2a001399-4e85-4adc-b568-32f8032f2ae7",
